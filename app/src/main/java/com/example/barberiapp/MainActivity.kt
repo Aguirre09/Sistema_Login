@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
 
         super.onBackPressed()
-
         //var name: String = txtSaludo.text.toString()
         //var pass: String = txt_pass.text.toString()
         val intent = Intent(this, Login::class.java)
@@ -67,7 +66,5 @@ class MainActivity : AppCompatActivity() {
         //intent.putExtra("pass",pass).toString()
         startActivity(intent)
         finish()
-
     }
-
 }
