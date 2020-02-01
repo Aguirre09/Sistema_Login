@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
     override fun onBackPressed() {
-
         super.onBackPressed()
         //var name: String = txtSaludo.text.toString()
         //var pass: String = txt_pass.text.toString()
