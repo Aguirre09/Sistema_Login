@@ -19,7 +19,6 @@ class Registro : AppCompatActivity() {
    lateinit var  et_contras: EditText
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
