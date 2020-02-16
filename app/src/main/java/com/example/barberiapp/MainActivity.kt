@@ -56,13 +56,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
     override fun onBackPressed() {
-        super.onBackPressed()
+       // super.onBackPressed()
         //var name: String = txtSaludo.text.toString()
         //var pass: String = txt_pass.text.toString()
-        val intent = Intent(this, Login::class.java)
+        //val intent = Intent(this, Login::class.java)
         //intent.putExtra("Correo",name).toString()
         //intent.putExtra("pass",pass).toString()
-        startActivity(intent)
+       // startActivity(intent)
+        //finish()
+        //CERRAR 
+        super.onBackPressed()
         finish()
+        Toast.makeText(this, "Bye", Toast.LENGTH_SHORT).show()
     }
 }

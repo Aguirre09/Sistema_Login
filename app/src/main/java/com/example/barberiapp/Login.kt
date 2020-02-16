@@ -119,6 +119,7 @@ class Login : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
+        finish()
         Toast.makeText(this, "Bye", Toast.LENGTH_SHORT).show()
     }
 
